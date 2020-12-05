@@ -1,0 +1,50 @@
+body {
+	background-color: rgb(109, 41, 41);
+	color: rgb(255, 255, 255);
+}
+
+.header {
+	margin: 0 auto;
+	text-align: left;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+.col-auto {
+	float: left;
+}
+
+.form-control-sm {
+	max-width: 150px;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 800px;
+  }
+
+  .flex-container > div {
+	margin: 5px;
+	text-align: center;
+	font-size: 12px;
+  }
+
+  img {
+	  width: 100px;
+	  box-shadow: 0 0 10px rgb(0,0,0);
+  }
+
+  img:hover{
+	cursor: pointer;
+  }
+
+  p {
+	  max-width: 100px;
+  }
